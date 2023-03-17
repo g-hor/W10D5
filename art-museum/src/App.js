@@ -5,7 +5,7 @@ import { Redirect, Route, Switch } from 'react-router-dom'
 
 
 function App() {
-  console.log(harvardArt);
+  // console.log(harvardArt);
   return (
     <div className="page-wrapper">
       <GalleryNavigation galleries={harvardArt.records}/>
