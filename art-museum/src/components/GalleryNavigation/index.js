@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import './GalleryNavigation.css'
 
 const GalleryNavigation = (props) => {
     const {galleries} = props
@@ -19,7 +20,7 @@ const GalleryNavigation = (props) => {
             <h1>
                 Galleries
             </h1>
-            <NavLink to='/'>
+            <NavLink exact to='/'>
                 Home
             </NavLink>
             <br />
